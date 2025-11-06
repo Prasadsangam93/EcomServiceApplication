@@ -18,8 +18,7 @@ public class Customer {
     private String name;
     private String email;
     private String phone;
-    private  String lastName;
-  
+
 
     // One customer → many addresses
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)

@@ -17,7 +17,6 @@ public class Cart {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String customerId;
     private Double totalAmount;
 
     @ManyToMany
