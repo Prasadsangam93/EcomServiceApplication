@@ -18,6 +18,7 @@ public class Customer {
     private String name;
     private String email;
     private String phone;
+    private  String lastName;
   
 
     // One customer → many addresses
