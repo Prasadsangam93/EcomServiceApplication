@@ -17,8 +17,10 @@ public class Customer {
     private Long id;
 
     private String name;
+    private String lastname
     private String email;
     private String phone;
+    
 
     // One customer → many addresses
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
