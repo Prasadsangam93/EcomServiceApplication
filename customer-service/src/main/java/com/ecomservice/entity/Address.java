@@ -20,7 +20,7 @@ public class Address {
     private String state;
     private String country;
     private String postalCode;
-    
+    private  String lastName;
 
     @ManyToOne
     @JoinColumn(name = "customer_id")
